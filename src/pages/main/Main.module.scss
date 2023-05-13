@@ -1,0 +1,50 @@
+.bikeImg {
+  @apply md:w-2/3 lg:w-3/4 xl:w-2/3 absolute bottom-0 -left-1/4;
+}
+
+.bikeImgReverse {
+  @apply w-full -scale-x-100 absolute top-2/4 -translate-y-2/4;
+  left: -40%;
+}
+
+.btn {
+  @apply rounded-lg transition-all px-5 py-3;
+  &:nth-child(1) {
+    @apply bg-orange-700;
+    &:focus,
+    &:hover {
+      @apply shadow-link shadow-orange-700;
+    }
+  }
+  &:nth-child(2) {
+    @apply px-4 py-2 flex rounded-lg hover:text-slate-50 cursor-pointer transition-colors;
+    &:hover {
+      span {
+        svg {
+          left: 10px;
+        }
+      }
+    }
+    span {
+      svg {
+        transition: all 0.5s ease-out;
+      }
+    }
+  }
+}
+
+.starIcon {
+  @apply w-4;
+}
+
+.speks {
+  @apply text-xl font-bold leading-6;
+  span {
+    @apply block font-normal;
+    font-size: 10px;
+  }
+}
+
+.logoFooter {
+  @apply w-1/3;
+}

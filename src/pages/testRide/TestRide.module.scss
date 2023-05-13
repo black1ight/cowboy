@@ -1,0 +1,15 @@
+.infoItem {
+  @apply bg-zinc-950/50 rounded-lg max-w-[330px] p-4 border-[1px] border-orange-900 flex-[1] overflow-hidden opacity-50 cursor-pointer transition-all;
+
+  .infoTitle {
+    @apply text-xl text-slate-100;
+  }
+
+  .listItem {
+    @apply list-[circle] list-inside;
+  }
+}
+
+.active {
+  @apply flex-[3] opacity-100 bg-none border-orange-800;
+}

@@ -1,0 +1,71 @@
+.root {
+  @apply px-4 xl:px-8 max-lg:pb-6 h-full w-full;
+  .wrapper {
+    @apply xl:h-full max-lg:pb-10 pb-20;
+  }
+  .header {
+    @apply max-w-[17.5rem] mx-auto text-slate-300 max-xl:mb-6;
+    p {
+      @apply text-4xl leading-none;
+
+      span {
+        @apply block text-end leading-[0] pt-2 pb-8 relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 17rem;
+          height: 2px;
+          background-color: rgb(194, 65, 12);
+        }
+      }
+    }
+  }
+
+  .bikeContainer {
+    @apply xl:flex justify-center gap-10 pt-14 relative;
+
+    .imgBlock {
+      @apply xl:w-2/4 max-xl:mb-[30px];
+    }
+
+    .textBlock {
+      @apply xl:max-w-[350px];
+
+      .textItem {
+        @apply mb-5 text-3xl text-slate-100;
+
+        &:nth-child(1) {
+          @apply relative pb-5;
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 20%;
+            height: 2px;
+            background-color: #c2410c;
+          }
+        }
+      }
+    }
+  }
+}
+
+.link {
+  @apply px-4 py-2 flex rounded-lg hover:text-slate-50 cursor-pointer transition-colors;
+  &:hover {
+    span {
+      svg {
+        left: 10px;
+      }
+    }
+  }
+  span {
+    svg {
+      transition: all 0.5s ease-out;
+    }
+  }
+}

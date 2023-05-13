@@ -1,0 +1,14 @@
+.root {
+  .main {
+    @apply absolute max-lg:top-[150px] top-0 left-0 z-[20] max-lg:flex-col max-lg:justify-center max-lg:items-start flex justify-between items-end h-calcFull;
+  }
+  .image {
+    @media (max-width: 640px) {
+      mask-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      );
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.root {
+  @apply overflow-hidden h-[84%] w-full max-md:flex max-md:flex-col md:grid grid-cols-2 grid-rows-6 max-sm:px-2 px-4 pb-4 gap-4 translate-y-[18%] relative;
+
+  .footer {
+    @apply col-span-2 row-span-1 bg-gradient-to-r from-zinc-900/60 via-zinc-950/60 to-zinc-900/60 flex items-center justify-center rounded-b-lg;
+    h4 {
+      @apply max-md:text-lg text-3xl text-zinc-400;
+    }
+  }
+}
+
+.bikeItem {
+  @apply max-md:h-full row-span-5 bg-zinc-500 relative overflow-hidden transition-all cursor-pointer;
+
+  &::after {
+    @media (max-width: 768px) {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      // background-color: rgba(0, 0, 0, 0.4);
+      background: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 202, 255, 0) 70%
+      );
+    }
+  }
+
+  &:nth-child(1) {
+    @apply bg-gradient-to-b from-zinc-900 to-zinc-900/50 rounded-lg;
+    &:hover {
+      @apply shadow-link shadow-orange-700/50 translate-y-1;
+    }
+  }
+  &:nth-child(2) {
+    @apply bg-gradient-to-b from-zinc-900 to-zinc-900/50 rounded-lg;
+    &:hover {
+      @apply shadow-link shadow-orange-700/50 translate-y-1;
+    }
+  }
+  .descr {
+    @apply absolute z-50 top-1/10 left-1/10 -translate-x-3;
+    span {
+      @apply text-sm text-zinc-400;
+    }
+    .title {
+      @apply max-sm:text-2xl text-4xl text-orange-700;
+    }
+    p {
+      @apply text-xs text-zinc-400 pt-3;
+    }
+  }
+}
+
+.bikeImg {
+  @apply absolute max-md:w-[70%] max-md:left-auto max-md:right-2 max-md:bottom-2 -bottom-[10%] lg:-bottom-[20%] xl:-bottom-[30%] -left-1/5;
+}
+
+.blur {
+  background-color: rgb(194 65 12);
+  backdrop-filter: blur(100px);
+}

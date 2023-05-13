@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.scrollBarr-off {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollBarr-off::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

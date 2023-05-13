@@ -1,0 +1,188 @@
+[
+  {
+    "name": "blue",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/24/assets/cowboy-4-st-lavender_871x@2x.png?v=84537269507994072911678338076",
+    "model": "2",
+    "type": "1"
+  },
+  {
+    "name": "pink",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/24/assets/cowboy-4-st-fig_871x@2x.png?v=36586731410634310581678337984",
+    "model": "2",
+    "type": "1"
+  },
+  {
+    "name": "pudr",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/24/assets/cowboy-4-st-clay_871x@2x.png?v=118639818382601402611678337933",
+    "model": "2",
+    "type": "1"
+  },
+  {
+    "name": "black",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/24/assets/cowboy-4-st-black_871x@2x.png?v=182019269708449898401678338022",
+    "model": "2",
+    "type": "1"
+  },
+  {
+    "name": "white",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/24/assets/cowboy-4-st-sand_871x@2x.png?v=12322637696683524121678337988",
+    "model": "2",
+    "type": "1"
+  },
+  {
+    "name": "black",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/24/assets/cowboy-4-black_871x@2x.png?v=74742678978058371101678365212",
+    "model": "1",
+    "type": "1"
+  },
+  {
+    "name": "white",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/24/assets/cowboy-4-sand_871x@2x.png?v=139548161552592430241678365213",
+    "model": "1",
+    "type": "1"
+  },
+  {
+    "id": "5",
+    "name": "black",
+    "title": "Tire & mudguard",
+    "subtitle": "Puncture-resistent tires fit with mudguards for when rain is right around corner.",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/24/assets/cowboy-4--detail-1_black_1440x@2x.png?v=41618864538522760911678337973",
+    "model": "1",
+    "type": "2"
+  },
+  {
+    "id": "5",
+    "name": "blue",
+    "title": "Tire & mudguard",
+    "subtitle": "Puncture-resistent tires fit with mudguards for when rain is right around corner.",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/25/assets/cowboy-4-st--detail-1_lavender_587x@2x.png?v=41618864538522760911678339364",
+    "model": "2",
+    "type": "2"
+  },
+  {
+    "id": "3",
+    "name": "black",
+    "title": "Carbon belt",
+    "sutitle": "High-mileage bicycle drive with a single loop of carbon for a cleaner, quieter ride.",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/24/assets/cowboy-4--detail-2_black_1440x@2x.png?v=86437375745174371421678337974",
+    "model": "1",
+    "type": "2"
+  },
+  {
+    "id": "3",
+    "name": "blue",
+    "title": "Carbon belt",
+    "sutitle": "High-mileage bicycle drive with a single loop of carbon for a cleaner, quieter ride.",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/25/assets/cowboy-4-st--detail-2_lavender_587x@2x.png?v=184246798704726332561678339251",
+    "model": "2",
+    "type": "2"
+  },
+  {
+    "id": "2",
+    "name": "black",
+    "title": "Integrated lights",
+    "sutitle": "Headlight and rear light aligned to the frame let you see and be seen.",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/24/assets/cowboy-4--detail-3_black_1440x@2x.png?v=1932703019337219391678338005",
+    "model": "1",
+    "type": "2"
+  },
+  {
+    "id": "2",
+    "name": "blue",
+    "title": "Integrated lights",
+    "sutitle": "Headlight and rear light aligned to the frame let you see and be seen.",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/25/assets/cowboy-4-st--detail-3_lavender_1193x@2x.png?v=70903549037863304351678339351",
+    "model": "2",
+    "type": "2"
+  },
+  {
+    "id": "4",
+    "name": "black",
+    "title": "Brakes",
+    "sutitle": "Hydraulic disc brakes with Cowboy spur details on the lever stop your tracks",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/24/assets/cowboy-4--detail-4_black_1440x@2x.png?v=62497801568362509501678338022",
+    "model": "1",
+    "type": "2"
+  },
+  {
+    "id": "4",
+    "name": "blue",
+    "title": "Brakes",
+    "sutitle": "Hydraulic disc brakes with Cowboy spur details on the lever stop your tracks",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/25/assets/cowboy-4-st--detail-4_lavender_1193x@2x.png?v=121633186961070136121678339220",
+    "model": "2",
+    "type": "2"
+  },
+  {
+    "id": "1",
+    "name": "black",
+    "title": "Saddle",
+    "sutitle": "Selle Royal seat fit comfort and durability atop a custom seat post.",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/24/assets/cowboy-4--detail-5_black_1440x@2x.png?v=141453029843062657981678337988",
+    "model": "1",
+    "type": "2"
+  },
+  {
+    "id": "1",
+    "name": "blue",
+    "title": "Saddle",
+    "sutitle": "Selle Royal seat fit comfort and durability atop a custom seat post.",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/25/assets/cowboy-4-st--detail-5_lavender_587x@2x.png?v=41677337426501691401678339375",
+    "model": "2",
+    "type": "2"
+  },
+  {
+    "id": "1",
+    "name": "black",
+    "type": "video",
+    "model": "1",
+    "title": "Cowboy AdaptivePower™",
+    "subtitle": "Gain extra power as the bike adapts instantly to the road to keep you riding smooth",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/25/assets/cowboy-4--assistance.h264.mp4?v=9154547369474219661678339250"
+  },
+  {
+    "id": "2",
+    "name": "black",
+    "type": "video",
+    "model": "1",
+    "title": "Integrated cockpit",
+    "subtitle": "See the route in front of you",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/25/assets/cowboy-4--app-3.h264.mp4?v=29144820429703226891678339366"
+  },
+  {
+    "id": "3",
+    "name": "black",
+    "type": "video",
+    "model": "1",
+    "title": "Removable battery",
+    "subtitle": "Take it with you for a charge",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/25/assets/cowboy-4--removable-battery.h264.mp4?v=113001576765059261401678339264"
+  },
+  {
+    "id": "1",
+    "name": "white",
+    "type": "video",
+    "model": "2",
+    "title": "Cowboy AdaptivePower™",
+    "subtitle": "Gain extra power as the bike adapts instantly to the road to keep you riding smooth",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/25/assets/cowboy-4-st--assistance.h264.mp4?v=23331203289778589591678339220"
+  },
+  {
+    "id": "2",
+    "name": "white",
+    "type": "video",
+    "model": "2",
+    "title": "Integrated cockpit",
+    "subtitle": "See the route in front of you",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/25/assets/cowboy-4-st--app-3.h264.mp4?v=56550689101441030261678339319"
+  },
+  {
+    "id": "3",
+    "name": "white",
+    "type": "video",
+    "model": "2",
+    "title": "Removable battery",
+    "subtitle": "Take it with you for a charge",
+    "link": "https://cdn.shopify.com/s/files/1/1772/1703/t/25/assets/cowboy-4-st--removable-battery.h264.mp4?v=95552709357151307161678339262"
+  }
+]
