@@ -27,11 +27,16 @@
     @apply xl:flex justify-center gap-10 pt-14 relative;
 
     .imgBlock {
-      @apply xl:w-2/4 max-xl:mb-[30px];
+      @apply lg:h-[60vw] xl:h-[300px] max-xl:mb-[30px] xl:w-2/4;
     }
 
     .textBlock {
-      @apply xl:max-w-[350px];
+      @media (min-width: 1280px) {
+        .xl\:max-w-\[350px\] {
+          max-width: 350px;
+        }
+      }
+      // @apply xl:max-w-[350px];
 
       .textItem {
         @apply mb-5 text-3xl text-slate-100;

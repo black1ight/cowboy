@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const Main = () => {
   return (
     <div className="text-gray-400 leading-4 h-full w-full relative flex max-lg:flex-wrap max-lg:overflow-auto overflow-hidden">
-      <span className="absolute -bottom-1/4 -left-20 bg-orange-500 blur-main back opacity-70 w-96 h-96 rounded-full flex" />
+      <span className="absolute -bottom-1/4 -left-20 bg-orange-500 blur-main blur-css back opacity-70 w-96 h-96 rounded-full flex" />
       <div className="relative max-lg:w-full w-3/4 xl:w-2/4 h-full flex justify-center">
         <div className="absolute max-sm:px-4 md:w-3/4 max-md:px-4 lg:w-2/3 h-2/5 flex gap-6 flex-col justify-between top-[23%]">
           <h2 className="font-bold text-4xl text-white">

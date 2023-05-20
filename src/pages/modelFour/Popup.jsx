@@ -29,7 +29,7 @@ const Popup = (props) => {
       </div>
       <div className="w-full h-full flex justify-center items-center relative">
         <img className="" src={props.imgLink} alt="popupImg" />
-        <p className="absolute max-sm:left-4 max-sm:right-auto top-20 right-20 text-slate-200 max-w-[300px]">
+        <p className="absolute bg-zinc-950/40 max-sm:left-4 max-sm:right-auto top-20 right-20 text-slate-200 max-w-[300px] p-[6px] rounded-md">
           {props.popupText}
         </p>
       </div>

@@ -30,6 +30,10 @@
   transform: rotate(-135deg);
 }
 
+.blur-css {
+  -webkit-backdrop-filter: blur();
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

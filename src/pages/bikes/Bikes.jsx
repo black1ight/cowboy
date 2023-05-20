@@ -41,7 +41,7 @@ const Bikes = () => {
         <h4>Two models to choose, either one to try</h4>
       </div>
       <span
-        className={`flex absolute -bottom-1/4 left-[50%] -translate-x-[50%] bg-orange-700 blur-main opacity-70 w-96 h-96 rounded-full -z-10`}
+        className={`flex absolute -bottom-1/4 left-[50%] -translate-x-[50%] bg-orange-700 blur-main blur-css opacity-70 w-96 h-96 rounded-full -z-10`}
       />
     </div>
   );
