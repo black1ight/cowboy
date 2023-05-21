@@ -1,6 +1,6 @@
 import React from "react";
 import { createContext } from "react";
-import { HashRouter, Route } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Main from "./pages/main/Main";
 import Bikes from "./pages/bikes/Bikes";
@@ -46,29 +46,31 @@ function App() {
         >
           <Header />
           <HashRouter>
-            <Route path="/" element={<Main />} />
-            <Route path="/bikes" element={<Bikes />} />
-            <Route
-              path="/bikes/:id"
-              element={<ModelFour setCurrentBike={setCurrentBike} />}
-            />
-            <Route
-              path="/order"
-              element={<OrderNow currentBike={currentBike} />}
-            />
-            <Route
-              path="/bikes/:id/info"
-              element={
-                <MoreInfo
-                  showPopup={setShowPopup}
-                  currentImgLink={setCurrentImg}
-                  setPopupText={setPopupText}
-                />
-              }
-            />
-            <Route path="/services" element={<Services />} />
-            <Route path="/specs" element={<Specs />} />
-            {/* <Route path="/test" element={<TestRide />} /> */}
+            <Routes>
+              <Route path="/" element={<Main />} />
+              <Route path="/bikes" element={<Bikes />} />
+              <Route
+                path="/bikes/:id"
+                element={<ModelFour setCurrentBike={setCurrentBike} />}
+              />
+              <Route
+                path="/order"
+                element={<OrderNow currentBike={currentBike} />}
+              />
+              <Route
+                path="/bikes/:id/info"
+                element={
+                  <MoreInfo
+                    showPopup={setShowPopup}
+                    currentImgLink={setCurrentImg}
+                    setPopupText={setPopupText}
+                  />
+                }
+              />
+              <Route path="/services" element={<Services />} />
+              <Route path="/specs" element={<Specs />} />
+              {/* <Route path="/test" element={<TestRide />} /> */}
+            </Routes>
           </HashRouter>
         </div>
       </myContext.Provider>
