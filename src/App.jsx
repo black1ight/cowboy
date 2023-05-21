@@ -49,7 +49,7 @@ function App() {
             <Route path="/" element={<Main />} />
             <Route path="/bikes" element={<Bikes />} />
             <Route
-              path="/cowboy/bikes/:id"
+              path="/bikes/:id"
               element={<ModelFour setCurrentBike={setCurrentBike} />}
             />
             <Route
