@@ -1,8 +1,8 @@
 {
-  "name": "new-app-tailwind",
+  "name": "cowboy",
   "version": "0.1.0",
-  "homepage": "https://black1ight.github.io/cowboy/#",
-  "private": true,
+  "homepage": "https://black1ight.github.io/cowboy",
+  "private": false,
   "dependencies": {
     "@react-google-maps/api": "^2.18.1",
     "@testing-library/jest-dom": "^5.16.5",

@@ -1,6 +1,6 @@
 import React from "react";
 import { createContext } from "react";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Main from "./pages/main/Main";
 import Bikes from "./pages/bikes/Bikes";
@@ -45,33 +45,31 @@ function App() {
           className={`w-full h-full md:w-3/4 md:h-3/4 text-gray-400 bg-zinc-900 shadow-main md:rounded-xl overflow-y-auto overflow-x-hidden  relative`}
         >
           <Header />
-          <HashRouter>
-            <Routes>
-              <Route path="/" element={<Main />} />
-              <Route path="/bikes" element={<Bikes />} />
-              <Route
-                path="/bikes/:id"
-                element={<ModelFour setCurrentBike={setCurrentBike} />}
-              />
-              <Route
-                path="/order"
-                element={<OrderNow currentBike={currentBike} />}
-              />
-              <Route
-                path="/bikes/:id/info"
-                element={
-                  <MoreInfo
-                    showPopup={setShowPopup}
-                    currentImgLink={setCurrentImg}
-                    setPopupText={setPopupText}
-                  />
-                }
-              />
-              <Route path="/services" element={<Services />} />
-              <Route path="/specs" element={<Specs />} />
-              {/* <Route path="/test" element={<TestRide />} /> */}
-            </Routes>
-          </HashRouter>
+          <Routes>
+            <Route path="/cowboy/" element={<Main />} />
+            <Route path="/cowboy/bikes" element={<Bikes />} />
+            <Route
+              path="/cowboy/bikes/:id"
+              element={<ModelFour setCurrentBike={setCurrentBike} />}
+            />
+            <Route
+              path="/cowboy/order"
+              element={<OrderNow currentBike={currentBike} />}
+            />
+            <Route
+              path="/cowboy/bikes/:id/info"
+              element={
+                <MoreInfo
+                  showPopup={setShowPopup}
+                  currentImgLink={setCurrentImg}
+                  setPopupText={setPopupText}
+                />
+              }
+            />
+            <Route path="/cowboy/services" element={<Services />} />
+            <Route path="/cowboy/specs" element={<Specs />} />
+            {/* <Route path="/test" element={<TestRide />} /> */}
+          </Routes>
         </div>
       </myContext.Provider>
     </div>
