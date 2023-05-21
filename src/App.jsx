@@ -46,7 +46,7 @@ function App() {
         >
           <Header />
           <Routes>
-            <Route path="/cowboy/" element={<Main />} />
+            <Route path="/cowboy" element={<Main />} />
             <Route path="/cowboy/bikes" element={<Bikes />} />
             <Route
               path="/cowboy/bikes/:id"
