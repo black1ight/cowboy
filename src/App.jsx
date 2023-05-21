@@ -46,10 +46,10 @@ function App() {
         >
           <Header />
           <Routes>
-            <Route path="/cowboy" element={<Main />} />
+            <Route path="/" element={<Main />} />
             <Route path="/bikes" element={<Bikes />} />
             <Route
-              path="/bikes/:id"
+              path="/cowboy/bikes/:id"
               element={<ModelFour setCurrentBike={setCurrentBike} />}
             />
             <Route
