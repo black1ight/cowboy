@@ -1,6 +1,6 @@
 import React from "react";
 import { createContext } from "react";
-import { Route, Routes } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import "./App.css";
 import Main from "./pages/main/Main";
 import Bikes from "./pages/bikes/Bikes";
@@ -45,7 +45,7 @@ function App() {
           className={`w-full h-full md:w-3/4 md:h-3/4 text-gray-400 bg-zinc-900 shadow-main md:rounded-xl overflow-y-auto overflow-x-hidden  relative`}
         >
           <Header />
-          <Routes>
+          <HashRouter>
             <Route path="/" element={<Main />} />
             <Route path="/bikes" element={<Bikes />} />
             <Route
@@ -69,7 +69,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/specs" element={<Specs />} />
             {/* <Route path="/test" element={<TestRide />} /> */}
-          </Routes>
+          </HashRouter>
         </div>
       </myContext.Provider>
     </div>
