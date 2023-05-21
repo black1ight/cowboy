@@ -47,17 +47,17 @@ function App() {
           <Header />
           <Routes>
             <Route path="/cowboy" element={<Main />} />
-            <Route path="/cowboy/bikes" element={<Bikes />} />
+            <Route path="/bikes" element={<Bikes />} />
             <Route
-              path="/cowboy/bikes/:id"
+              path="/bikes/:id"
               element={<ModelFour setCurrentBike={setCurrentBike} />}
             />
             <Route
-              path="/cowboy/order"
+              path="/order"
               element={<OrderNow currentBike={currentBike} />}
             />
             <Route
-              path="/cowboy/bikes/:id/info"
+              path="/bikes/:id/info"
               element={
                 <MoreInfo
                   showPopup={setShowPopup}
@@ -66,8 +66,8 @@ function App() {
                 />
               }
             />
-            <Route path="/cowboy/services" element={<Services />} />
-            <Route path="/cowboy/specs" element={<Specs />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/specs" element={<Specs />} />
             {/* <Route path="/test" element={<TestRide />} /> */}
           </Routes>
         </div>
